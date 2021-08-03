@@ -5,6 +5,7 @@ h1 {
     font-size: 60px;
     margin-bottom: 24px;
     font-weight: 900;
+    margin-top: 0;
 }
 h4 {
     color: #46484c;
@@ -48,4 +49,67 @@ p {
 body {
     background-color: #fffbf7;
     font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    margin: 40px 20px 0 20px;
+    font-size: 0px;
+    height: 45px;
+}
+
+.header > *{
+    display: inline-block;
+    font-size: 16px;
+}
+main {
+    margin-top: 285px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.logo {
+    width: 20%;
+}
+
+.navbar {
+    width: 60%;
+    text-align: center;
+    color: #025157;
+}
+
+.navbar > ul {
+    padding-left: 0;
+}
+
+.actions {
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.lista {
+    margin: 0 25px;
+}
+
+.sign-in {
+    color: #67b54b ;
+}
+
+.btnFree {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #67b54b;
+    color: #fff;
+    padding: 12px 14px;
+    border:0;
+}
+
+.actions > * {
+    margin: 0 10px;
+    text-decoration: none;
 }
