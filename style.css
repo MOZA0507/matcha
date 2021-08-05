@@ -1,115 +1,178 @@
-
-h1 {
+body {
+    background-color: #fffbf7;
+  }
+  
+  h1 {
     color: #025157;
     font-family: "Alegreya", serif;
     font-size: 60px;
-    margin-bottom: 24px;
     font-weight: 900;
+    margin-bottom: 24px;
     margin-top: 0;
-}
-h4 {
-    color: #46484c;
-    font-family: "Slabo 27px", serif;
-    font-size: 20px;
-    margin-bottom: 30px;
-    font-weight: 500;
-    line-height: 1.2;
-}
-form {
-    height: 55px;
-}
-input {
-    border: 1px solid #b6b6b6;
-    width: 60%;
-    max-width: 250px;
-    height: 93%;
-}
-input, button {
-    border-radius: 8px;
-}
-button {
+  }
+  
+  button {
     background-color: #025157;
-    color: #fff;
+    color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     border: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 6px 20px;
-    margin-left: -14px;
-    height: 100%;
-}
-button, input, optgroup, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-p {
-    color: #8b8b8bcc;
-    margin-top: 15px;
-}
-body {
-    background-color: #fffbf7;
-    font-family: "Open Sans", sans-serif;
+    height: 50px;
+  }
+  
+  .fixed-header {
+      position: fixed;
+      right: 0;
+      top: 0;
+      left: 0;
+      background-color:#fffbf7 ;
+      padding-bottom: 20px;
 }
 
-.header {
-    margin: 40px 20px 0 20px;
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 20px 0;
     font-size: 0px;
     height: 45px;
-}
-
-.header > *{
+    font-family: sans-serif;
+  }
+  
+  .header > * {
     display: inline-block;
     font-size: 16px;
-}
-main {
-    margin-top: 285px;
+  }
+  
+  main {
+    margin-top: 250px;
     text-align: center;
-}
-
-li {
+  }
+  
+  main > h4 {
+    color: #46484c;
+    font-family: serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+  
+  main > p {
+    color: #8b8b8bcc;
+    margin-top: 15px;
+    font-family: serif;
+    font-size: 20px;
+  }
+  
+  .enter-mail {
+    height: 45px;
+    margin-right: -5px;
+    padding: 0 10px;
+    border: none;
+  }
+  
+  .banner {
+    margin-top: 2rem;
+    vertical-align: middle;
+    padding: 0 10%;
+  }
+  
+  .intro {
+    margin-top: 32px;
+    vertical-align: middle;
+    padding: 0 10%;
+  }
+  
+  .intro > img {
+    width: 70%;
+  }
+  
+  li {
     display: inline;
-}
-
-.logo {
+  }
+  
+  .logo {
     width: 20%;
-}
-
-.navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar {
     width: 60%;
     text-align: center;
     color: #025157;
-}
-
-.navbar > ul {
+  }
+  
+  .navbar > ul {
     padding-left: 0;
-}
-
-.actions {
+  }
+  
+  .itemNavegacion {
+    margin: 0 25px;
+  }
+  
+  .actions {
     width: 20%;
     text-align: center;
     font-size: 14px;
-}
-
-.lista {
-    margin: 0 25px;
-}
-
-.sign-in {
-    color: #67b54b ;
-}
-
-.btnFree {
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    background-color: #67b54b;
-    color: #fff;
-    padding: 12px 14px;
-    border:0;
-}
-
-.actions > * {
+  
+  }
+  
+  .actions > * {
     margin: 0 10px;
+  }
+  
+  .actionsSignIn {
+    color: #67b54b;
     text-decoration: none;
-}
+  }
+  
+  .actions > button {
+    background-color: #67b54b;
+    color: #ffffff;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  h3 {
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: .5rem;
+  }
+
+  .pub {
+      flex: 1;
+  }
+
+  .pub > p {
+    font-family: "Open Sans", sans-serif;
+    color: #343434;
+  }
+
+  .pub > div > p {
+    font-family:  "Open Sans", sans-serif;
+    color: #8b8b8bcc;
+  }
+
+  .promo {
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      margin: 100px auto;
+      align-items: center;
+  }
+
+  .promo > .explanatory-video >figure > img {
+      width: 120px;
+      margin: 10px 0;
+  }
+
+  .explanatory-video {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+  }
