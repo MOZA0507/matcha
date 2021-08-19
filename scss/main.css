@@ -1,0 +1,7 @@
+@use 'global' as *;
+.blog {
+  background-color: #ffffff;
+  padding: 5% 10%;
+  max-width: unset;
+}
+/*# sourceMappingURL=main.css.map */
